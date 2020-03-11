@@ -1,0 +1,16 @@
+a1=input("metni giriniz:  ")
+seri1=input("simetrik diziyi giriniz:  ")
+seri=[]
+for i in seri1:
+    seri.append(int(i))
+a=[]
+for i in a1:
+    a.append(i)
+t=[]
+for i in range(len(seri)):
+    t.append(0)
+for i in range(len(seri)):
+    t[seri[i]]=a[i]
+    i+=1
+print(t)
+#©Şükrü Yiğit Karaağaç-Halil İbrahim Kanpak 2020
